@@ -1,0 +1,38 @@
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+venv312/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Vector database (too large)
+chroma_db/
+
+# Temporary output files
+answer_*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude artifacts
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
